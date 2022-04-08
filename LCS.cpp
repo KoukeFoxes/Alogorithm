@@ -82,8 +82,8 @@ int LCS(string x, string y)
 int main()
 {
   string x, y;
-  cin >> x >> y;
-//   x = "ABCBDAB";
-//   y = "BDCABA";
+  // cin >> x >> y;
+  x = "ABCBDAB";
+  y = "BDCABA";
   cout << LCS(x, y) << endl;
 }
