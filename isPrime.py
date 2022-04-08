@@ -15,7 +15,7 @@ def main() -> None:
         return True
 
     goal = int(input())
-    index = 0
+    index = 1
     for i in range(3, sys.maxsize):
         index += 1 if isPrime(i) else 0
         if index == goal:
