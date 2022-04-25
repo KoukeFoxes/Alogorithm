@@ -21,6 +21,7 @@ class QuickSort:
             if i < j:
                 #swap
                 self.list[i], self.list[j] = self.list[j], self.list[i]  
+                
         self.list[f], self.list[j] = self.list[j], self.list[f]
         
         self.sort(f, j-1)
